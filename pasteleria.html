@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>cafeteria</title>
+</head>
+<body>
+	<section>
+        <header>
+            <H1 id="inicio" align ="center">CAFETERIA EL " JEFE"</H1>
+        </header>
+        <img src="LOGO CAFETERIA.png" alt=" logo cafeteria">
+
+        <H2>MENU PASTELERIA</H2>
+            <H3>SABORES</H3>
+                <UL>
+                    <LI>PASTEL DE VAINILLA................. $80.000  X LIBRA</LI>
+                    <LI>PASTEL DE CHOCOLATE................ $80.000  X LIBRA</LI>
+                    <LI>PASTEL DE FRESA.................... $80.000  X LIBRA</LI>
+                    <LI>PASTEL DE LIMON.................... $80.000  X LIBRA</LI>
+                </UL>
+            <h3>SALUDABLES</H3>   
+                <UL>
+                    <LI>PASTEL DE ZANAHORIA.................... $90.000 X LIBRA</LI>
+                    <LI>PASTEL DE MANZANA...................... $90.000 X LIBRA</LI>
+                </UL>
+                <h3>DECORACIONES PARA EL PASTEL</H3>   
+                    <UL>
+                        <LI>DIBUJOS ANIMADOS.................... $40.000</LI>
+                        <LI>ESPECIAL PARA BODAS................. $30.000</LI>
+                        <LI>ESPECIAL PARA CUMPLEAÑOS............ $25.000</LI>
+                        <LI>SENCILLO CON CREMA CHANTILLY........ $15.000</LI>
+                        <LI>CHANTILLY ADICIONAL CON FLORES...... $20.000</LI>
+                    </UL>
+         <HR>
+        <h2 id="ubicacion">UBICACIÓN</h2>
+         
+         <table>
+        <TR>
+            <TH>NOMBRE</TH>
+            <TH>UBICACION</TH>
+            <TH>HORARIO</TH>
+            <TH>TELEFONO</TH>
+
+        </TR>
+        <TR>
+                <TD>ZONA CENTRICA</TD>
+                <TD> <a href="https://goo.gl/maps/xt34p8DWQsULH1JK8" target="_blank">Cl. 10 #15-257 a 15-1 </a></TD>
+                <TD>  L-D 9 AM - 9 PM</TD>
+                <TD> 3134569395</TD>
+            </TR>
+
+            <TR>
+                <TD>CENTRO COMERCIAL</TD>
+                <TD> <a href="https://goo.gl/maps/yyVpzxDjvW6hHxio6" target="_blank">Centro comercial Viva Wajira </a></TD>
+                <TD>  L-D 9 AM - 9 PM</TD>
+                <TD> 3134569395</TD>
+            </TR>
+            <TR>
+                <TD>MERCADO NUEVO</TD>
+                <TD> <a href="https://goo.gl/maps/wQtW6dUZYq1S6Qci6" target="_blank">Cra. 7a #230 </a></TD>
+                <TD>  L-D 9 AM - 9 PM</TD>
+                <TD> 3134569395</TD>
+            </TR>
+         </table>
+    <hr>
+    <h2 align="center">PEDIDOS</h2>
+      <form action="" method="post">
+        <p> DE CUAL PASTELERIA QUIERE UD HACER EL PEDIDO ?</p>
+          <select name="ubpedido" id="ubpedido">
+            <option value="ZONA CENTRICA">ZONA CENTRICA</option>
+            <option value="CENTRO COMERCIAL">CENTRO COMERCIAL</option>
+            <option value="MERCADO NUEVO">MERCADO NUEVO</option>
+          </select>
+          
+          <p> ESCOJA EL TAMAÑO DEL PASTEL</p>
+         
+            <input type="radio" name="1/2libra" id="1/2libra">
+            <label for="1/2libra">1/2 libra</label><BR>
+            
+            <input type="radio" name="1libra" id="1libra">
+            <label for="1libra">1 libra</label><BR>
+            
+            <input type="radio" name="2libra" id="2libra">
+            <label for="2libra">2 libras</label><BR>
+
+        <p> SELECCIONE O COMBINE EL O LOS SABORES DE SU PREFERENCIA</p>
+          <input type="checkbox" name="VAINILLA" id="VAINILLA">
+            <label for="VAINILLA">VAINILLA</label><BR>
+            
+            <input type="checkbox" name="CHOCOLATE" id="CHOCOLATE">
+            <label for="CHOCOLATE">CHOCOLATE</label><BR>
+            
+            <input type="checkbox" name="FRESA" id="FRESA">
+            <label for="FRESA">FRESA</label><BR>
+            
+            <input type="checkbox" name="LIMON" id="LIMON">
+            <label for="LIMON">LIMON</label><BR>
+            
+        <p> SELECCIONE O COMBINE LOS ADORNOS DE SU PREFERENCIA</p>
+              <input type="checkbox" name="DIBUANIMADOS" id="DIBUANIMADOS">
+              <label for="DIBUANIMADOS">DIBUJOS ANIMADOS</label><BR>
+              
+              <input type="checkbox" name="BODAS" id="BODAS">
+              <label for="BODAS">BODAS</label><BR>
+              
+              <input type="checkbox" name="CUMPLEAÑOS" id="CUMPLEAÑOS">
+              <label for="CUMPLEAÑOS">CUMPLEAÑOS</label><BR>
+              
+              <input type="checkbox" name="CHANTILLY" id="CHANTILLY">
+              <label for="CHANTILLY">CHANTILLY</label><BR>
+
+              <input type="checkbox" name="CHATIFRESA" id="CHATIFRESA">
+              <label for="CHATIFRESA">CHATILY CON FRESA</label> <BR>
+        
+        <p> <strong>INGRESE INFORMACION PARA SU PEDIDO</strong> </p> <BR>
+              
+              <label for="nombre">Digite su nombre completo</label><BR>
+              <input type="text" name="nombre" id="nombre"><br><br>
+              
+              <label for="tel"> Digite su numero de telefono</label><br>
+              <input type="number" name="tel" id="tel"><br><br>
+              
+              <label for="email"> Digite su correo electronico</label><br>
+              <input type="email" name="email" id="email"><br><br>
+              
+              <label for="direccion">Digite su direccion para el envio del pedido</label><br>
+              <input type="text" name="direccion" id="direccion"><br><br>
+              
+                <input type="submit" value="ENVIAR PEDIDO">
+      </form>
+      <a href="#inicio"> regresar a inicio</a>
+    </section>
+  <footer>
+    
+    <p align = "center">@copyright pasteleria el JEFE</p>
+    <p align="center">telefono: 3133546468</p></strong>
+
+  </footer>
+</body>
+</html>
